@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="static/css/contato.css">
+</head>
+<body>
+ <header>
+        <div class="container">
+            <h1>Confeitaria Delícia</h1>
+            <nav>
+                <ul>
+                    <li><a href="{{url_for ('inicial')}}">Início</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Cardápio</a></li>
+                    <li><a href="{{url_for ('contato')}}">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+<section class="hero">
+        <div class="container">
+     <h2> Entre em contato conosco no botão abaixo</h2>
+
+
+            <a href="mailto:confeitariadelicia@gmail.com" class="cta-button">Entre em Contato</a>
+        </div>
+    </section>
+
+<footer>
+        <div class="container">
+            <p>&copy; 2024 Confeitaria Delícia. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
